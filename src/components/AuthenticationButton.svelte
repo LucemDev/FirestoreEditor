@@ -15,7 +15,7 @@
             loading = true;
         }
     }
-
+    $: console.log(user)
 </script>
 
 <button on:click={()=>doAction()}  class="rounded-full bg-fade uppercase px-6 py-2 border border-primary font-bold flex items-center" >
